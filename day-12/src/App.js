@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.css';
+import Card from './components/Card';
+import CardTwo from './components/CardTwo';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.App}>
+      <h2>通用型 css module 的設定</h2>
+      <Card />
+      <hr/>
+      <h2>在 create-react-app 建立的專案中，另一種使用的方式：</h2>
+      <CardTwo />
     </div>
   );
 }
