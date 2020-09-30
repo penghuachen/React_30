@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.post {
+  border: 1px solid #8d8d8d;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: left;
+  padding: 10px;
+}
+
+.post span {
+  color: #f00;
+}
+
+.delete-text {
+  color: blue;
+}
+
+button {
+  background-color: #ddd;
+  border-radius: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
