@@ -1,0 +1,8 @@
+.card {
+  height: 80px;
+  border-radius: 10px;
+  border: 1px solid #8d8d8d;
+  margin: 10px auto;
+  line-height: 80px;
+  cursor: pointer;
+}
