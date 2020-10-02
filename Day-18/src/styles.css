@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 5px;
+  background: #ddd;
+}
+
+nav ul li:hover {
+  background: #8d8d8d;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.active {
+  color: green;
+}
