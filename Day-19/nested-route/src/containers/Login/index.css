@@ -1,0 +1,19 @@
+.login-page {
+  border-radius: 10px;
+  border: 3px solid #8d8d8d;
+  width: 30%;
+  margin: 0 auto;
+  padding: 15px 10px;
+}
+
+h2 {
+  margin: 0;
+}
+
+input[type="text"] {
+  margin: 10px 0 0 5px;
+}
+
+button {
+  margin-top: 10px;
+}
